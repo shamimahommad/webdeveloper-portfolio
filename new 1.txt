@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="testimonial-section">
+  <h2 class="testimonial-title">What our users say</h2>
+  <div class="testimonial-list">
+    <div class="testimonial-card">
+      <div class="stars">
+        <img src="star.png" alt="star">
+        <img src="star.png" alt="star">
+        <img src="star.png" alt="star">
+        <img src="star.png" alt="star">
+        <img src="star.png" alt="star">
+      </div>
+      <div class="testimonial-heading">Loved by Designers</div>
+      <div class="testimonial-text">This template instantly leveled up our presence.” – Studio Vertex</div>
+      <div class="testimonial-footer">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Reviewer" class="reviewer-img">
+        <div>
+          <div class="reviewer-name">Reviewer name</div>
+          <div class="reviewer-date">Date</div>
+        </div>
+      </div>
+    </div>
+    <!-- aro 2 ta card same vabe copy kore nite paro -->
+  </div>
+</div>
+
+
+.testimonial-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.testimonial-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #252432;
+  margin-bottom: 32px;
+}
+
+.testimonial-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.testimonial-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(78, 71, 255, 0.04);
+  padding: 28px 24px 20px 24px;
+  flex: 1 1 0;
+  min-width: 280px;
+  max-width: 340px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stars {
+  color: #ffd700;
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+
+.testimonial-heading {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #252432;
+  margin-bottom: 8px;
+}
+
+.testimonial-text {
+  color: #888ca1;
+  font-size: 1rem;
+  margin-bottom: 24px;
+}
+
+.testimonial-footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.reviewer-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-name {
+  font-size: 1rem;
+  color: #252432;
+  font-weight: 500;
+}
+
+.reviewer-date {
+  font-size: 0.9rem;
+  color: #b0b3c6;
+}
